@@ -1,0 +1,22 @@
+
+$black: #555;
+
+.clear {
+	clear: both;
+}
+
+td.fc-day.fc-widget-content:hover {
+	background-color: red;
+}
+
+td.fc-day.fc-widget-content:hover .add-announcement {
+	color: $black;
+}
+
+.add-announcement {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 15px;
+	color: transparent;
+}
